@@ -52,7 +52,7 @@ hr{
 }
 .blogs{
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(2,1fr);
     row-gap: 26px;
 }
 .blog{
