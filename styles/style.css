@@ -77,3 +77,10 @@ hr{
     color:#562EFF;
     margin-left: 3px;
 }
+
+/* --------------- courses styles--------------- */
+
+.courses .thumnail img{
+    height: 104px;
+    width: 224px;
+}
