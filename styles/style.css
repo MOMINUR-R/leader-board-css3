@@ -85,16 +85,19 @@ hr{
     grid-template-columns: repeat(3,1fr);
     column-gap: 25px;
 }
+a{
+    text-decoration: none;
+}
 .course-title{
     color: black;
 }
-.course-author{
-    text-decoration: none;
+.course-author a{
     color:#ED6B4F;
 }
 .course-info{
     display: flex;
     align-items: center;
+    justify-content: space-between
 }
 .course .thumnail img{
     height: 104px;
