@@ -19,6 +19,7 @@ main{
     padding: 30px;
     border-radius: 5px;
 }
+
 hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
@@ -112,4 +113,37 @@ a{
 }
 .fa-star.empty{
     color:#A2A2A2;
+}
+/* ------------------
+    Media Queries
+-------------------*/
+
+/* ----------Mobile Device---------- */
+
+@media only screen and (max-width:688px) {
+
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .top-players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blog {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .blog-info {
+        margin-left: 0px;
+    }
+
+
+    .player {
+        flex-direction: column;
+    }
 }
