@@ -147,3 +147,16 @@ a{
         flex-direction: column;
     }
 }
+/* ----------Taplet devices---------- */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .top-players,
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
